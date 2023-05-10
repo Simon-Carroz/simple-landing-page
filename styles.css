@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* header */
+.main-header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+    background-color: #a41623;
+    justify-content: space-around;
+}
+
+
+.main-header nav {
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main-header ul {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
+.greeting-section {
+    padding: 80px;
+    justify-content: center;
+    gap: 80px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.greeting-section img {
+    width: auto;
+    height: auto;
+    max-width: 400px;
+
+    border-radius: 5px;
+    border: dashed #ffd29d
+
+}
+
+
+.sign-up-greeting {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.sign-up-greeting h2 {
+    font-weight: 900;
+    font-size: 40px;
+    color: #ffd29d;
+}
+
+.sign-up-greeting > * {
+    padding: 5px;
+}
+
+
+.sign-up-greeting button {
+    color: white;
+    background-color: #f85e00;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+
+
+/* image sequence section */
+
+
+
+.album-section {
+    background-color: #fce4c9;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px;
+
+}
+
+
+.image-separator > img {
+    height: 120px;
+    width: 150px;
+    border-radius: 50%;
+    border: dashed #a41623
+}
+
+
+
+
+
+.album-section > h2{
+    color:#a41623;
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+
+.image-sequence {
+    font-family: 'Pontano Sans', sans-serif;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    display: flex;
+}
+
+.image-separator {
+
+    padding: 10px;
+    width: 150px;
+}
+
+
+
+/* quote from famous */
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #ffcd94;
+    padding: 120px;
+}
+
+
+.quote-parent {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+}
+
+.quote-parent > .quote {
+    font-family: 'Instrument Sans', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    color:#1f2937
+
+}
+
+
+.signature {
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 10px;
+    color:#1f2937
+}
+
+
+
+/* call to action section */
+
+
+.cta-section {
+    padding: 150px;
+    background-color: #a41623 ;
+}
+
+.cta-block {
+    background-color: #0ba073;
+    color: white;
+    display: flex;
+    padding: 40px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    margin: 0px 30px;
+    flex-wrap: wrap;
+    border: solid white;
+
+}
+
+.cta-block > div > h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.cta-block > div > p {
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+
+.cta-block > button {
+    color: white;
+    border: solid white;
+    background-color: #0ba073;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+.footer-section {
+
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-family: 'Pontano Sans', sans-serif;
+
+}
+
